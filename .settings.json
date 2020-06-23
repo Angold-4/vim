@@ -1,0 +1,40 @@
+## My Vim Extensions for VScode https://marketplace.visualstudio.com/items?itemName=vscodevim.vim
+{
+    "python.dataScience.sendSelectionToInteractiveWindow": true,
+    "python.pythonPath": "/Users/yy/anaconda3",
+    "workbench.colorTheme": "Solarized Dark",
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings":[
+        {
+            "before":["j", "k"],
+            "after":["<Esc>"]
+        }
+    ],
+    "vim.normalModeKeyBindings":[
+        {
+            "before":["<C-h>"],
+            "after":["g", "t"]
+        },
+        {
+            "before":["<C-l>"],
+            "after":["g", "T"]
+        },
+        {
+            "before":["L"],
+            "after":["$"]
+        },
+        {
+            "before":["H"],
+            "after":["^"]
+        },
+        {
+            "before":["<space>"],
+            "after":["/"]
+        }
+    ],
+    "vim.sneak": true,
+    "editor.codeActionsOnSave": null,
+}
